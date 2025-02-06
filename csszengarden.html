@@ -1,13 +1,35 @@
 <h1 class="italic"><h1 class="medio"><h1 class="grassetto"><h1 class="testo-verde">CSS ZENGARDEN</h1></h1></h1></h1>
 <h2 class="italic"><h2 class="medio"><h2 class="testo-arancio"><h2 class="fantasy">Una sfida a colpi di colori</h2></h2></h2></h2>
 <p class="italic"><p class="grassetto"><p class="testo-verde">Solo i veri <a href="sigmaboy.gif"> sigma</a> saranno in grado di rendere questa pagina bellissima</p></p></p>
-<h3 class="italic">John von Neumann</h3>
+<h3 class="italic"><span class="top">John von Neumann</h3></span>
 <p class="italic"><p class="medio"><p class="grassetto">È generalmente considerato come uno dei più grandi matematici della storia moderna e una delle personalità scientifiche preminenti del XX secolo.
 A lui si devono contributi fondamentali in numerosi campi della conoscenza come la <span class="grassetto">teoria degli insiemi</span>,
 <span class="grassetto">analisi funzionale</span>, <span class="corsivo">topologia</span>, <span class="corsivo">fisica quantistica</span>,
 economia, informatica, teoria dei giochi, fluidodinamica e in molti altri settori della matematica.</p></p></p>
 
+<p class="zas     \\<ZVKFMKKMJJMMNJNGGUJJDJJJDJJHJJDJJtop">the alan progect</p>
+
+<h1 id="contenitore">
+  se mi tocchi ti svelo chi sono<br />
+  <span id="figlio">CIAO SONO THE REAL PEPPE </span>
+</h1>
+
 <style>
+
+  #top {
+    top: 150px;
+    left: 80px;
+    color: aqua;
+  }
+
+  #figlio {
+    display: none;
+  }
+
+  #contenitore:hover #figlio {
+    display: inline;
+  }
+
 .grosso {
 font-size: 40px;
 } 
@@ -17,11 +39,17 @@ font-size: 40px;
 .italic {
  font-family: italic;
 } 
-.testo-verde {	
+.testo-verde {
+  color: red;
+  text-decoration: underline;
+}
+.testo-verde:hover {	
 color: #8a2be2;
+
 }  
 .testo-arancio {	
 color: #666699;
+
 }
 .fantasy {	
  font-family: fantasy; 
@@ -29,7 +57,11 @@ color: #666699;
 .grassetto {
  font-weight: bold;
 }   
+.grassetto:hover {
+ display: none;
+}  
  body {
   background-color: #66ffcc;
 }
+
 </style>
